@@ -1,0 +1,6 @@
+VAD Toolkit: A Database for Voice Activity Detection
+
+At each environment, conversational speech by two Korean male speakers
+was recorded. The ground truth labels are manually annotated. Because the recording
+was carried out in the real world, unexpected noises are included to the dataset
+such as the crying of baby, the chirping of insects, mouse click sound, and etc..

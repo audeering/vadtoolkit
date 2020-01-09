@@ -1,0 +1,3 @@
+dependencies {
+    storeDatabase group: 'com.github.jtkim-kaist.vad', name: 'vadtoolkit', version: '1.0.0', ext: 'zip'
+}

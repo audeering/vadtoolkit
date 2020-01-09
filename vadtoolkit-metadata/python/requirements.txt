@@ -1,0 +1,3 @@
+audata>=0.5.2
+pycaption
+scipy
