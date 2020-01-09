@@ -22,7 +22,7 @@ allprojects {
     apply plugin: 'com.audeering.data'
 
     group 'com.audeering.data.vadtoolkit'
-    version '0.1.0-SNAPSHOT'
+    version '1.0.0'
 
     data {
         description = rootProject.file('DESCRIPTION').text.split('\n')[0]
