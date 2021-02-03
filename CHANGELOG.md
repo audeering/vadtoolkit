@@ -2,17 +2,13 @@ Changelog
 =========
 
 
-[Unreleased]
-------------
+Version 1.0.1 (2021/02/03)
+--------------------------
 
-* No changes
+* Added: conversion to new audb format
 
 
-[1.0.0] -- 2020/01/09
----------------------
+Version 1.0.0 (2020/01/09)
+--------------------------
 
 * Added: initial release
-
-
-[Unreleased]: https://gitlab.audeering.com/data/vadtoolkit/tree/master
-[1.0.0]: https://gitlab.audeering.com/data/vadtoolkit/tree/v1.0.0
