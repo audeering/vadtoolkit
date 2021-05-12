@@ -1,2 +1,0 @@
-rootProject.name = 'vadtoolkit'
-include 'vadtoolkit-data', 'vadtoolkit-metadata'

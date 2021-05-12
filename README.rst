@@ -1,20 +1,34 @@
 VAD-Toolkit
 ===========
 
-Converts `VAD Toolkit (vadtoolkit)` to the audata_ format and publishes it on Artifactory.
+`VAD Toolkit`_ provides data for voice activity detection (VAD).
 
-Prerequisites
--------------
+Publish
+~~~~~~~
 
-Java_ must be installed.
+1. Install and activate virtual environment, e.g.:
 
-Publishing
-----------
+    .. code-block::
 
-Run `./gradlew publish`.
+        virtualenv --python="/usr/bin/python3" venv
+        source venv/bin/activate
 
-An Artifactory_ account with deploy permissions must be configured via Gradle properties `artifactoryUser` and `artifactoryApiKey`.
+2. Install requirements:
 
-.. _audata: https://gitlab.audeering.com/tools/audata
-.. _Artifactory: https://artifactory.audeering.com/
-.. _Java: https://sdkman.io/sdks#java
+    .. code-block::
+
+        pip install -r requirements.txt
+
+3. Run:
+
+    .. code-block::
+
+        python main.py``  # dry-run, check result under '~/audb-host'
+
+    or
+
+    .. code-block::
+
+        python main.py --publish  # publish to Artifactory
+
+.. _`VAD Toolkit`: https://github.com/jtkim-kaist/VAD
