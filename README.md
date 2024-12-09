@@ -1,5 +1,10 @@
 # vadtoolit
 
+For further publications of `vadtoolit`, please go to
+https://github.com/audeering/datasets/tree/main/datasets/vadtoolit
+
+---
+
 This project holds code
 to convert the [vadtoolkit] corpus
 to [audformat]
